@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244DD7332BEF57D40065CAC4 /* workafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD7322BEF57D40065CAC4 /* workafeApp.swift */; };
+		244DD7352BEF57D40065CAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD7342BEF57D40065CAC4 /* ContentView.swift */; };
+		244DD7372BEF57D60065CAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244DD7362BEF57D60065CAC4 /* Assets.xcassets */; };
+		244DD73A2BEF57D60065CAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244DD7392BEF57D60065CAC4 /* Preview Assets.xcassets */; };
+		244DD7442BEF57D60065CAC4 /* workafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD7432BEF57D60065CAC4 /* workafeTests.swift */; };
+		244DD74E2BEF57D60065CAC4 /* workafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD74D2BEF57D60065CAC4 /* workafeUITests.swift */; };
+		244DD7502BEF57D60065CAC4 /* workafeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD74F2BEF57D60065CAC4 /* workafeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244DD7402BEF57D60065CAC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244DD7272BEF57D40065CAC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244DD72E2BEF57D40065CAC4;
+			remoteInfo = workafe;
+		};
+		244DD74A2BEF57D60065CAC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244DD7272BEF57D40065CAC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244DD72E2BEF57D40065CAC4;
+			remoteInfo = workafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244DD72F2BEF57D40065CAC4 /* workafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244DD7322BEF57D40065CAC4 /* workafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workafeApp.swift; sourceTree = "<group>"; };
+		244DD7342BEF57D40065CAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		244DD7362BEF57D60065CAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244DD7392BEF57D60065CAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		244DD73F2BEF57D60065CAC4 /* workafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244DD7432BEF57D60065CAC4 /* workafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workafeTests.swift; sourceTree = "<group>"; };
+		244DD7492BEF57D60065CAC4 /* workafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244DD74D2BEF57D60065CAC4 /* workafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workafeUITests.swift; sourceTree = "<group>"; };
+		244DD74F2BEF57D60065CAC4 /* workafeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workafeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244DD72C2BEF57D40065CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD73C2BEF57D60065CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD7462BEF57D60065CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244DD7262BEF57D30065CAC4 = {
+			isa = PBXGroup;
+			children = (
+				244DD7312BEF57D40065CAC4 /* workafe */,
+				244DD7422BEF57D60065CAC4 /* workafeTests */,
+				244DD74C2BEF57D60065CAC4 /* workafeUITests */,
+				244DD7302BEF57D40065CAC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244DD7302BEF57D40065CAC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244DD72F2BEF57D40065CAC4 /* workafe.app */,
+				244DD73F2BEF57D60065CAC4 /* workafeTests.xctest */,
+				244DD7492BEF57D60065CAC4 /* workafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244DD7312BEF57D40065CAC4 /* workafe */ = {
+			isa = PBXGroup;
+			children = (
+				244DD7322BEF57D40065CAC4 /* workafeApp.swift */,
+				244DD7342BEF57D40065CAC4 /* ContentView.swift */,
+				244DD7362BEF57D60065CAC4 /* Assets.xcassets */,
+				244DD7382BEF57D60065CAC4 /* Preview Content */,
+			);
+			path = workafe;
+			sourceTree = "<group>";
+		};
+		244DD7382BEF57D60065CAC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				244DD7392BEF57D60065CAC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		244DD7422BEF57D60065CAC4 /* workafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				244DD7432BEF57D60065CAC4 /* workafeTests.swift */,
+			);
+			path = workafeTests;
+			sourceTree = "<group>";
+		};
+		244DD74C2BEF57D60065CAC4 /* workafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				244DD74D2BEF57D60065CAC4 /* workafeUITests.swift */,
+				244DD74F2BEF57D60065CAC4 /* workafeUITestsLaunchTests.swift */,
+			);
+			path = workafeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244DD72E2BEF57D40065CAC4 /* workafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244DD7532BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafe" */;
+			buildPhases = (
+				244DD72B2BEF57D40065CAC4 /* Sources */,
+				244DD72C2BEF57D40065CAC4 /* Frameworks */,
+				244DD72D2BEF57D40065CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = workafe;
+			productName = workafe;
+			productReference = 244DD72F2BEF57D40065CAC4 /* workafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244DD73E2BEF57D60065CAC4 /* workafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244DD7562BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafeTests" */;
+			buildPhases = (
+				244DD73B2BEF57D60065CAC4 /* Sources */,
+				244DD73C2BEF57D60065CAC4 /* Frameworks */,
+				244DD73D2BEF57D60065CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244DD7412BEF57D60065CAC4 /* PBXTargetDependency */,
+			);
+			name = workafeTests;
+			productName = workafeTests;
+			productReference = 244DD73F2BEF57D60065CAC4 /* workafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244DD7482BEF57D60065CAC4 /* workafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244DD7592BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafeUITests" */;
+			buildPhases = (
+				244DD7452BEF57D60065CAC4 /* Sources */,
+				244DD7462BEF57D60065CAC4 /* Frameworks */,
+				244DD7472BEF57D60065CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244DD74B2BEF57D60065CAC4 /* PBXTargetDependency */,
+			);
+			name = workafeUITests;
+			productName = workafeUITests;
+			productReference = 244DD7492BEF57D60065CAC4 /* workafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244DD7272BEF57D40065CAC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					244DD72E2BEF57D40065CAC4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					244DD73E2BEF57D60065CAC4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 244DD72E2BEF57D40065CAC4;
+					};
+					244DD7482BEF57D60065CAC4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 244DD72E2BEF57D40065CAC4;
+					};
+				};
+			};
+			buildConfigurationList = 244DD72A2BEF57D40065CAC4 /* Build configuration list for PBXProject "workafe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244DD7262BEF57D30065CAC4;
+			productRefGroup = 244DD7302BEF57D40065CAC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244DD72E2BEF57D40065CAC4 /* workafe */,
+				244DD73E2BEF57D60065CAC4 /* workafeTests */,
+				244DD7482BEF57D60065CAC4 /* workafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244DD72D2BEF57D40065CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244DD73A2BEF57D60065CAC4 /* Preview Assets.xcassets in Resources */,
+				244DD7372BEF57D60065CAC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD73D2BEF57D60065CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD7472BEF57D60065CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244DD72B2BEF57D40065CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244DD7352BEF57D40065CAC4 /* ContentView.swift in Sources */,
+				244DD7332BEF57D40065CAC4 /* workafeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD73B2BEF57D60065CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244DD7442BEF57D60065CAC4 /* workafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244DD7452BEF57D60065CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244DD7502BEF57D60065CAC4 /* workafeUITestsLaunchTests.swift in Sources */,
+				244DD74E2BEF57D60065CAC4 /* workafeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244DD7412BEF57D60065CAC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244DD72E2BEF57D40065CAC4 /* workafe */;
+			targetProxy = 244DD7402BEF57D60065CAC4 /* PBXContainerItemProxy */;
+		};
+		244DD74B2BEF57D60065CAC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244DD72E2BEF57D40065CAC4 /* workafe */;
+			targetProxy = 244DD74A2BEF57D60065CAC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		244DD7512BEF57D60065CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		244DD7522BEF57D60065CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244DD7542BEF57D60065CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"workafe/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244DD7552BEF57D60065CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"workafe/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		244DD7572BEF57D60065CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/workafe";
+			};
+			name = Debug;
+		};
+		244DD7582BEF57D60065CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/workafe";
+			};
+			name = Release;
+		};
+		244DD75A2BEF57D60065CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = workafe;
+			};
+			name = Debug;
+		};
+		244DD75B2BEF57D60065CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAFJH8N3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motomae.workafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = workafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244DD72A2BEF57D40065CAC4 /* Build configuration list for PBXProject "workafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244DD7512BEF57D60065CAC4 /* Debug */,
+				244DD7522BEF57D60065CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244DD7532BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244DD7542BEF57D60065CAC4 /* Debug */,
+				244DD7552BEF57D60065CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244DD7562BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244DD7572BEF57D60065CAC4 /* Debug */,
+				244DD7582BEF57D60065CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244DD7592BEF57D60065CAC4 /* Build configuration list for PBXNativeTarget "workafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244DD75A2BEF57D60065CAC4 /* Debug */,
+				244DD75B2BEF57D60065CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244DD7272BEF57D40065CAC4 /* Project object */;
+}
